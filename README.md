@@ -28,11 +28,10 @@ Turn history is kept in the plugin store, so the last 8 turns come back in a new
 ## Install
 
 ```
-/plugin marketplace add <repo>
+/plugin marketplace add purplecofe/usage-inspector
 /plugin install usage-inspector@usage-inspector
 ```
 
-Replace `<repo>` with this repository's GitHub path or a local path.
 
 ## Layout
 

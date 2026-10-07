@@ -28,11 +28,10 @@ Turns 歷史存在外掛 store，重開 session 會恢復最近 8 筆。
 ## 安裝
 
 ```
-/plugin marketplace add <repo>
+/plugin marketplace add purplecofe/usage-inspector
 /plugin install usage-inspector@usage-inspector
 ```
 
-`<repo>` 換成這個 repo 的 GitHub 路徑或本機路徑。
 
 ## 專案結構
 
