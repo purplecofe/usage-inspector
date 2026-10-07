@@ -32,7 +32,6 @@ Turns 歷史存在外掛 store，重開 session 會恢復最近 8 筆。
 /plugin install usage-inspector@usage-inspector
 ```
 
-
 ## 專案結構
 
 ```

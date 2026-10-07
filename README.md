@@ -32,7 +32,6 @@ Turn history is kept in the plugin store, so the last 8 turns come back in a new
 /plugin install usage-inspector@usage-inspector
 ```
 
-
 ## Layout
 
 ```
