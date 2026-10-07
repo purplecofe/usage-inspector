@@ -4,6 +4,10 @@ English | [繁體中文](README_ZH.md)
 
 A Claude Code plugin that pins a one-line usage band above the prompt. Context usage, cost, tokens added per prompt, and 5-hour / 7-day limit pace stay in view without running `/context` or `/usage`. Works in the terminal, the desktop app, and VS Code.
 
+![Usage band above the prompt in the desktop app](docs/images/band.png)
+
+<sub>Mockup: the bars and turns graph are drawn by the plugin's own rendering code; the surrounding app UI is illustrative.</sub>
+
 ## Features
 
 **Usage band**
@@ -15,6 +19,8 @@ A Claude Code plugin that pins a one-line usage band above the prompt. Context u
 **Context pane**
 
 Click `ⓘ` at the end of the band, or run `/context-detail`, to open a pane with:
+
+<img src="docs/images/pane.png" alt="Context pane" width="420">
 
 - Model, auto-compact threshold and remaining headroom, cache hit rate
 - Tokens per category

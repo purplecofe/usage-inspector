@@ -4,6 +4,10 @@
 
 Claude Code 外掛：在輸入框上方常駐一行用量列，不用執行 `/context` 或 `/usage` 就能看到 context 佔用、成本、每個 prompt 增加的 tokens，以及 5 小時／7 天額度的消耗速度。支援終端機、桌面版與 VS Code。
 
+![桌面版輸入框上方的用量列](docs/images/band.png)
+
+<sub>示意圖：進度條與 Turns 圖由外掛本身的繪圖程式產生，周圍的 app 介面為模擬。</sub>
+
 ## 功能
 
 **用量列**
@@ -15,6 +19,8 @@ Claude Code 外掛：在輸入框上方常駐一行用量列，不用執行 `/co
 **Context 面板**
 
 點用量列右側的 `ⓘ`，或執行 `/context-detail`，開啟面板查看：
+
+<img src="docs/images/pane.png" alt="Context 面板" width="420">
 
 - 模型、auto-compact 門檻與剩餘空間、cache 命中率
 - 各分類的 token 用量
