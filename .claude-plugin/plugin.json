@@ -1,0 +1,7 @@
+{
+  "name": "usage-inspector",
+  "version": "1.0.0",
+  "description": "One-line context usage band: context %, tokens, cost, per-prompt turn bars, and 5h/7d limit pace bars, with a context breakdown pane. Terminal and desktop.",
+  "author": { "name": "kai.huang" },
+  "types": "./types/index.d.ts"
+}

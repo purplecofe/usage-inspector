@@ -1,0 +1,13 @@
+{
+  "name": "usage-inspector",
+  "owner": {
+    "name": "kai.huang"
+  },
+  "plugins": [
+    {
+      "name": "usage-inspector",
+      "source": "./",
+      "description": "Context usage band with turn bars, 5h/7d pace bars and a context breakdown pane."
+    }
+  ]
+}
