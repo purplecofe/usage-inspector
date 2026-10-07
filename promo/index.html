@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>usage-inspector — 15s promo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="player">
+    <div class="stage">
+      <canvas id="stage" role="img" aria-label="usage-inspector promo: context usage, turns, limit pace and context breakdown"></canvas>
+    </div>
+    <div class="controls">
+      <button id="play" class="icon" aria-label="Play">
+        <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>
+        <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>
+      </button>
+      <span id="time" class="time">00.0 / 15.0</span>
+      <input id="scrub" type="range" min="0" max="15000" step="1" value="0" aria-label="Seek">
+      <button id="restart" class="text">Restart</button>
+      <label class="toggle"><input id="loop" type="checkbox" checked> Loop</label>
+      <button id="export" class="text primary">Export video</button>
+    </div>
+    <p class="hint">Space play/pause · ← → seek 1s · R restart</p>
+  </main>
+  <script src="js/core.js" defer></script>
+  <script src="js/scenes.js" defer></script>
+  <script src="js/player.js" defer></script>
+</body>
+</html>
